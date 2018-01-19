@@ -4,6 +4,14 @@ Crosshairs Plugin
 Adds the ability to draw crosshairs onto pipeline previews to assist with positioning
 cameras.
 
+Dependencies
+------------
+
+The plugin depends on the following package(s):
+::
+
+    python-gi-cairo
+
 Loading
 -------
 
