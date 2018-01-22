@@ -27,6 +27,7 @@ False: Disables plugin
 Recording pipelines need to include a `cairooverlay` element named `crosshair-overlay`.
 Rather than modify existing Galicaster recorder bins, it is possible to specify the
 `cairooverlay` element as part of the `caps-preview` configuration for a profile.
+
 Example Presenter profile:
 ::
 
@@ -48,3 +49,5 @@ Example Presenter profile:
     flavor = presenter
     location = default
     name = Audio
+
+**N.B. Crosshairs are applied to `Presenter` flavors only.**
