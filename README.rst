@@ -15,18 +15,18 @@ The plugin depends on the following package(s):
 Loading
 -------
 
-To activate the plugin, add the line in the `plugins` section of your configuration file
+To activate the plugin, add the line in the ``plugins`` section of your configuration file
 ::
 
     [plugins]
     crosshairs = True
 
-True: Enables plugin
-False: Disables plugin
+- True: Enables plugin
+- False: Disables plugin
 
-Recording pipelines need to include a `cairooverlay` element named `crosshair-overlay`.
+Recording pipelines need to include a ``cairooverlay`` element named ``crosshair-overlay``.
 Rather than modify existing Galicaster recorder bins, it is possible to specify the
-`cairooverlay` element as part of the `caps-preview` configuration for a profile.
+``cairooverlay`` element as part of the ``caps-preview`` configuration for a profile.
 
 Example Presenter profile:
 ::
