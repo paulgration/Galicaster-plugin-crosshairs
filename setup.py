@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/teltek/Galicaster-plugin-cameracontrol',
+    url='https://github.com/pmgration/Galicaster-plugin-crosshairs',
 
     # Choose your license
     license='MIT',
